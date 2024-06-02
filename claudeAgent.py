@@ -40,6 +40,7 @@ def get_transcript_from_video_url(video_link: str) -> str:
 video_link = 'https://www.youtube.com/watch?v=jI-HeXhsUIg'
 prompt = create_tool_prompt(video_link)
 response = prompt.invoke(api, tokens=1024)
+print(response['raw_content'])
 questions_prompt = Prompt('''User: Prepare a list of only 3 questions based on the transcript {transcript}. Give me the output as follows:
                               <questions>
                               - question1
@@ -56,7 +57,7 @@ with open("transcript.txt", "r") as f:
     transcript_text = f.read()
 questions_prompt.set_kwargs(transcript=transcript_text)
 response = questions_prompt.invoke(api, tokens=1024)
-print("questions:",response)
+# print("questions:",response)
 
 questions = response["parsed_objects"]["questions"].split('\n')
 
