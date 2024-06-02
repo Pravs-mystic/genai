@@ -15,6 +15,6 @@ By leveraging advanced prompt engineering techniques, QuizTube AI ensures consis
 
 ## Installation
 
-pipenv install
-pipenv shell
+pipenv install && pipenv shell
+
 
