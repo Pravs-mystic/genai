@@ -12,7 +12,6 @@ from pprint import pprint
 
 api = Claude("anthropic.claude-3-sonnet-20240229-v1:0")
 
-transcript_text = ""
 
 
 def create_tool_prompt(user_input):
@@ -32,39 +31,41 @@ def get_transcript_from_video_url(video_link: str) -> str:
     video_id = video_link.split("v=")[1].split("&")[0]  # Extract video id from link
     transcript = YouTubeTranscriptApi.get_transcript(video_id)
     transcript_text = '\n'.join([x['text'] for x in transcript])
+    # write transcript to a File
+    with open("transcript.txt", "w") as f:
+        f.write(transcript_text)
     return transcript_text
 
 
-video_link = 'https://www.youtube.com/watch?v=vg6-yTRYPjM'
+video_link = 'https://www.youtube.com/watch?v=jI-HeXhsUIg'
 prompt = create_tool_prompt(video_link)
-print("prompt:",prompt)
 response = prompt.invoke(api, tokens=1024)
-print(response["raw_content"])
-
-questions_prompt = Prompt('''User: Prepare a list of only 3 questions based on the transcript below. Give me the output as follows:
+questions_prompt = Prompt('''User: Prepare a list of only 3 questions based on the transcript {transcript}. Give me the output as follows:
                               <questions>
                               - question1
                               - question2
                               ...
                               </questions>
 
-                              <transcript> 
-                              {transcript_text}
-                              </transcript>
-
                               Assistant:
                               Sure, here are the 3 questions:
                               ''')
-questions_prompt.set_kwargs(transcript_text=transcript_text)
+
+# Read transcript from the file
+with open("transcript.txt", "r") as f:
+    transcript_text = f.read()
+questions_prompt.set_kwargs(transcript=transcript_text)
 response = questions_prompt.invoke(api, tokens=1024)
-print("questions:",response["raw_content"])
+print("questions:",response)
+
 questions = response["parsed_objects"]["questions"].split('\n')
 
 for q in questions:
     print(f"Question : {q}")
     user_answer = input("Enter your answer:")
-    prompt = Prompt('''Tutor: {q}
-                    Student: {user_answer}
+    prompt = Prompt('''You are asking questions in the form of quiz to the user.
+                    Tutor: {q}
+                    Me: {user_answer}
                     Tutor: 
     
     ''',
