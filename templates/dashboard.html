@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Dashboard</h1>
+    <p>Welcome to your dashboard. Here you can start your YouTube video quiz.</p>
+    
+    <form action="{{ url_for('dashboard') }}" method="post">
+        <label for="video_url">Enter YouTube Video URL:</label>
+        <input type="text" id="video_url" name="video_link" required>
+        <button type="submit">Quiz Me</button>
+    </form>
+{% endblock %}

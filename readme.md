@@ -1,5 +1,5 @@
 # Project Name
-QuizTube AI
+QuizTube AI (Using Flask, Python, LLMTools, Claude, TailwindCSS, SQLite, HTML, CSS)
 
 ## Description
 
@@ -17,5 +17,6 @@ By leveraging advanced prompt engineering techniques, QuizTube AI ensures consis
 ## Installation
 
 pipenv install && pipenv shell
+pipenv run app.py
 
 

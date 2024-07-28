@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>YouTube Video Quiz</h1>
+    <h2>Summary</h2>
+    <p>{{ summary }}</p>
+    <h2>Questions</h2>
+    <form action="{{ url_for('submit_quiz') }}" method="post">
+        <input type="hidden" name="video_link" value="{{ video_link }}">
+        {% for question in questions %}
+            <div>
+                <p>{{ question }}</p>
+                <input type="text" name="question_{{ loop.index }}" required>
+            </div>
+        {% endfor %}
+        <input type="submit" value="Submit Quiz">
+    </form>
+{% endblock %}

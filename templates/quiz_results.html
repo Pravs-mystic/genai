@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Quiz Results</h1>
+    {% for answer in feedback %}
+        <div>
+            <p>{{ answer }}</p>
+        </div>
+    {% endfor %}
+    <a href="{{ url_for('dashboard') }}">Back to Dashboard</a>
+{% endblock %}
