@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 form {
-    max-width: 300px;
+    max-width: 500px;
     margin: 2rem auto;
     background-color: white;
     padding: 20px;
@@ -68,13 +68,6 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input[type="text"],
-input[type="password"],
-input[type="submit"] {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-}
 
 input[type="submit"] {
     background-color: #333;
@@ -115,13 +108,15 @@ label {
     color: #333;
 }
 
-input[type="text"] {
-    width: 100%;
+input[type="text"], 
+input[type="password"] {
+    width: 80%;
     padding: 0.75rem;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     transition: border-color 0.3s ease;
+    align-items: center;
 }
 
 input[type="text"]:focus {
@@ -132,7 +127,7 @@ input[type="text"]:focus {
 
 .submit-btn {
     display: block;
-    width: 100%;
+    width: 80%;
     padding: 0.75rem;
     font-size: 1rem;
     color: #fff;
@@ -141,6 +136,9 @@ input[type="text"]:focus {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .submit-btn:hover {
@@ -157,7 +155,7 @@ input[type="text"]:focus {
 
 /* Quiz Results styles */
 .quiz-results {
-    max-width: 800px;
+    width: 800px;
     margin: 0 auto;
     padding: 2rem;
     background-color: #f9f9f9;
@@ -174,6 +172,7 @@ input[type="text"]:focus {
 
 .feedback-container {
     margin-bottom: 2rem;
+    max-width: 100%;
 }
 
 .feedback-item {
