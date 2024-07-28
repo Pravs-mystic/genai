@@ -1,0 +1,91 @@
+I tried training my custom model on a set
+of images taken from Pexels, and I was surprised
+by the outputs generated using that model.
+I’ll provide the link to the images in the
+description.
+I used these pics after cropping them.
+I found myself experiencing a spectrum of
+emotions, ranging from a sense of hopelessness
+to sheer astonishment while generating images
+from my model.
+In order to train your own custom model, go
+to the training and data sets option in the
+side panel and click on new data set, give
+it a name and description, then click on create
+data set.
+Now upload your images from your computer
+and then click on train model.
+Enter the name, description, and instance
+prompt, and click on start training.
+The instance prompt is the phrase you will
+use in your image prompt to generate images
+from your model.
+Now let’s generate some images from our
+model!
+Go to image generation and click on select
+other models in the finetuned models, then
+go to your models and click on settings.
+Select characters as the category and click
+on save.
+Now select view and click on generate using
+this model.
+Let’s give a simple prompt first.
+"Andrea, portrait of a girl wearing a red
+t-shirt"
+Click on generate…
+Wow, the image looks exactly like the person
+from our training set.
+Of course, the face is not refined.
+Let’s use Alchemy up Scaler in low and high
+resolutions…
+Wow, it looks great.
+Let’s give another simple prompt.
+"Andrea, smiling."
+This time let’s add an element.
+I’ll select ivory and gold…
+Oh my God!
+This is so cool!
+Now I’ll try giving something different.
+"Andrea, 2-year-old."
+And select preset as none.
+Okay, the image is not good.
+Let’s refine it…
+Wow, I think Andrea would look like this when
+she was a two-year-old child…
+Next prompt.
+"Andrea, portrait of a woman on the red carpet."
+With Preset none…
+Amazing!
+Look at her face.
+Since I mentioned the word woman, the face
+is now more matured…
+Next!
+"Andrea, portrait of a woman wearing a Barbie
+gown" and set preset as general…
+Yeah, it’s good but the image needs refining.
+"Andrea as Snow White."
+Okay, this looks like Snow White, but the
+face is not anything similar to Andrea.
+"Andrea, as the mythological character Sita
+from Ramayana."
+This is not Sita!
+But you know what?
+The model added some Indian touch to the girl.
+She even has vermilion on her face!
+"Andrea, as a fairy with wings."
+Okay, when I said fairy with wings, the model
+interpreted it as a child.
+"Andrea wearing a long red bridal dress."
+The image looks good, but she is not Andrea!
+"Andrea, in the style of Wonder Woman.”—
+Wonderful!
+This is so good!
+—
+Okay!
+All in all, I would say, training my own model
+and trying all these random prompts was worth
+it, though I lost so many tokens from doing
+a ton of trial and error.
+Please like and subscribe if you enjoy my
+content, and hit the bell icon to watch more
+interesting content like this.

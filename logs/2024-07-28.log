@@ -17,3 +17,144 @@
 [INFO][2024-07-28 01:11:29,447][_internal|_log] 127.0.0.1 - - [28/Jul/2024 01:11:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 [INFO][2024-07-28 01:11:29,596][_internal|_log] 127.0.0.1 - - [28/Jul/2024 01:11:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 [INFO][2024-07-28 01:11:29,633][_internal|_log] 127.0.0.1 - - [28/Jul/2024 01:11:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:41:19,334][_internal|_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO][2024-07-28 10:41:19,341][_internal|_log] [33mPress CTRL+C to quit[0m
+[INFO][2024-07-28 10:41:19,344][_internal|_log]  * Restarting with stat
+[WARNING][2024-07-28 10:41:19,703][_internal|_log]  * Debugger is active!
+[INFO][2024-07-28 10:41:19,763][_internal|_log]  * Debugger PIN: 122-572-075
+[INFO][2024-07-28 10:41:22,310][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:41:22] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:41:22,373][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:41:22] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:41:22,476][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:41:22] "[33mGET /static/{{%20url_for('static',%20filename='images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:41:22,995][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:41:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:42:57,062][_internal|_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO][2024-07-28 10:42:57,072][_internal|_log] [33mPress CTRL+C to quit[0m
+[INFO][2024-07-28 10:42:57,075][_internal|_log]  * Restarting with stat
+[WARNING][2024-07-28 10:42:57,569][_internal|_log]  * Debugger is active!
+[INFO][2024-07-28 10:42:57,574][_internal|_log]  * Debugger PIN: 122-572-075
+[INFO][2024-07-28 10:43:01,861][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:43:01] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:43:01,898][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:43:01] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:43:02,109][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:43:02] "[33mGET /static/{{%20url_for('static',%20filename='../images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:44:41,722][_internal|_log] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO][2024-07-28 10:44:41,734][_internal|_log] [33mPress CTRL+C to quit[0m
+[INFO][2024-07-28 10:44:41,749][_internal|_log]  * Restarting with stat
+[WARNING][2024-07-28 10:44:42,309][_internal|_log]  * Debugger is active!
+[INFO][2024-07-28 10:44:42,323][_internal|_log]  * Debugger PIN: 122-572-075
+[INFO][2024-07-28 10:44:44,037][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:44:44] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:44:44,063][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:44:44] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:44:44,089][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:44:44] "[33mGET /static/{{%20url_for('static',%20filename='../images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:44:58,188][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:44:58] "GET /login HTTP/1.1" 200 -
+[INFO][2024-07-28 10:44:58,252][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:44:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:44:58,453][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:44:58] "[33mGET /static/{{%20url_for('static',%20filename='../images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:45:25,509][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:25] "GET /login HTTP/1.1" 200 -
+[INFO][2024-07-28 10:45:25,585][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:25] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:45:25,653][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:25] "[33mGET /static/{{%20url_for('static',%20filename='../images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:45:30,358][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:30] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:45:30,460][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:45:30,504][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:30] "[33mGET /static/{{%20url_for('static',%20filename='../images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:45:30,669][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:45:30,854][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:45:37,296][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:37] "GET /login HTTP/1.1" 200 -
+[INFO][2024-07-28 10:45:37,369][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:45:37,417][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:37] "[33mGET /static/{{%20url_for('static',%20filename='../images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:45:59,088][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:59] "GET /login HTTP/1.1" 200 -
+[INFO][2024-07-28 10:45:59,139][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:59] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:45:59,191][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:45:59] "[33mGET /static/{{%20url_for('static',%20filename='../images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:46:06,428][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:06] "GET /login HTTP/1.1" 200 -
+[INFO][2024-07-28 10:46:06,497][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:06] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:46:06,545][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:06] "[33mGET /static/{{%20url_for('static',%20filename='../images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:46:14,521][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:14] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:46:14,582][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:46:14,596][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:14] "[33mGET /static/{{%20url_for('static',%20filename='../images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:46:14,773][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:46:14,874][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:46:16,822][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:16] "GET /register HTTP/1.1" 200 -
+[INFO][2024-07-28 10:46:16,859][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:46:16,879][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:16] "[33mGET /static/{{%20url_for('static',%20filename='../images/bg.jpg')%20}} HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:46:17,031][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:46:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:48:36,686][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:36] "GET /register HTTP/1.1" 200 -
+[INFO][2024-07-28 10:48:36,789][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:36] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:48:36,836][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:36] "[33mGET /images/bg.jpg HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:48:38,837][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:38] "GET /register HTTP/1.1" 200 -
+[INFO][2024-07-28 10:48:38,886][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:48:38,902][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:38] "[33mGET /images/bg.jpg HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:48:39,749][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:39] "GET /register HTTP/1.1" 200 -
+[INFO][2024-07-28 10:48:39,777][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:48:42,990][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:42] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:48:43,035][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:48:43,136][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:48:43] "[33mGET /images/bg.jpg HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:50:28,619][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:28] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:50:28,886][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:28] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:50:29,017][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:29] "GET /static/images/bg.jpg HTTP/1.1" 200 -
+[INFO][2024-07-28 10:50:29,746][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:50:35,218][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:35] "GET /login HTTP/1.1" 200 -
+[INFO][2024-07-28 10:50:35,492][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:50:35,600][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:35] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:50:41,444][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:41] "GET /register HTTP/1.1" 200 -
+[INFO][2024-07-28 10:50:41,819][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:50:43,808][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:43] "GET /login HTTP/1.1" 200 -
+[INFO][2024-07-28 10:50:44,186][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:50:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:51:03,843][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:51:03] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:51:04,227][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:51:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:51:08,026][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:51:08] "GET /login HTTP/1.1" 200 -
+[INFO][2024-07-28 10:51:08,384][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:51:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:51:55,791][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:51:55] "GET /login HTTP/1.1" 200 -
+[INFO][2024-07-28 10:51:56,191][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:51:56] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:51:56,446][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:51:56] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:52:00,685][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:52:00] "GET /register HTTP/1.1" 200 -
+[INFO][2024-07-28 10:52:01,026][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:52:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:52:01,293][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:52:01] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:52:02,992][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:52:02] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:52:03,337][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:52:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:52:03,616][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:52:03] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:52:53,174][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:52:53] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:52:53,595][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:52:53] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:52:53,841][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:52:53] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:53:08,509][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:53:08] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:53:08,868][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:53:08] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:53:09,127][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:53:09] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:55:00,059][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:00] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:55:00,298][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:55:00,443][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:00] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:55:09,688][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:09] "GET / HTTP/1.1" 200 -
+[INFO][2024-07-28 10:55:10,056][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:55:10,323][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:10] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:55:13,023][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:13] "GET /login HTTP/1.1" 200 -
+[INFO][2024-07-28 10:55:13,376][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:55:13,633][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:13] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:55:23,693][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+[INFO][2024-07-28 10:55:24,030][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:24] "GET /dashboard HTTP/1.1" 200 -
+[INFO][2024-07-28 10:55:24,286][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:55:24,417][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:24] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:55:24,686][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:55:25,188][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:55:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO][2024-07-28 10:56:04,535][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:56:04] "GET /dashboard HTTP/1.1" 200 -
+[INFO][2024-07-28 10:56:04,933][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:56:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:56:05,187][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:56:05] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:59:18,540][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:18] "GET /dashboard HTTP/1.1" 200 -
+[INFO][2024-07-28 10:59:18,791][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:18] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 10:59:18,912][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:18] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:59:25,653][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:25] "GET /dashboard HTTP/1.1" 200 -
+[INFO][2024-07-28 10:59:26,021][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:59:26,296][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:26] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:59:28,609][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:28] "GET /dashboard HTTP/1.1" 200 -
+[INFO][2024-07-28 10:59:28,947][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:59:29,211][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:29] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:59:32,425][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:32] "[32mGET / HTTP/1.1[0m" 302 -
+[INFO][2024-07-28 10:59:32,762][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:32] "GET /dashboard HTTP/1.1" 200 -
+[INFO][2024-07-28 10:59:33,019][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 10:59:35,630][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:35] "[32mGET / HTTP/1.1[0m" 302 -
+[INFO][2024-07-28 10:59:35,981][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:35] "GET /dashboard HTTP/1.1" 200 -
+[INFO][2024-07-28 10:59:36,230][_internal|_log] 127.0.0.1 - - [28/Jul/2024 10:59:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 11:00:12,575][_internal|_log] 127.0.0.1 - - [28/Jul/2024 11:00:12] "GET /dashboard HTTP/1.1" 200 -
+[INFO][2024-07-28 11:00:12,956][_internal|_log] 127.0.0.1 - - [28/Jul/2024 11:00:12] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 11:00:13,229][_internal|_log] 127.0.0.1 - - [28/Jul/2024 11:00:13] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 11:00:23,740][credentials|load] Found credentials in shared credentials file: ~/.aws/credentials
+[INFO][2024-07-28 11:00:33,410][_internal|_log] 127.0.0.1 - - [28/Jul/2024 11:00:33] "POST /dashboard HTTP/1.1" 200 -
+[INFO][2024-07-28 11:00:33,813][_internal|_log] 127.0.0.1 - - [28/Jul/2024 11:00:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 11:00:34,068][_internal|_log] 127.0.0.1 - - [28/Jul/2024 11:00:34] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+[INFO][2024-07-28 11:02:27,991][_internal|_log] 127.0.0.1 - - [28/Jul/2024 11:02:27] "POST /dashboard HTTP/1.1" 200 -
+[INFO][2024-07-28 11:02:28,083][_internal|_log] 127.0.0.1 - - [28/Jul/2024 11:02:28] "GET /static/style.css HTTP/1.1" 200 -
+[INFO][2024-07-28 11:02:28,446][_internal|_log] 127.0.0.1 - - [28/Jul/2024 11:02:28] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -

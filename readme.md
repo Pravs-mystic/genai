@@ -19,4 +19,5 @@ By leveraging advanced prompt engineering techniques, QuizTube AI ensures consis
 pipenv install && pipenv shell
 pipenv run app.py
 
-
+### copy rights
+Image by benzoix on Freepik

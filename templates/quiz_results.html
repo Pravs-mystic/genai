@@ -1,11 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Quiz Results</h1>
-    {% for answer in feedback %}
-        <div>
-            <p>{{ answer }}</p>
-        </div>
-    {% endfor %}
-    <a href="{{ url_for('dashboard') }}">Back to Dashboard</a>
+<div class="quiz-results">
+    <h1 class="results-title">Quiz Results</h1>
+    <div class="feedback-container">
+        {% for answer in feedback %}
+            <div class="feedback-item">
+                <p>{{ answer }}</p>
+            </div>
+        {% endfor %}
+    </div>
+    <a href="{{ url_for('dashboard') }}" class="back-btn">Back to Dashboard</a>
+</div>
 {% endblock %}
