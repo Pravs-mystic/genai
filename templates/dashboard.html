@@ -1,13 +1,21 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <p class="dashboard-intro">Welcome to your dashboard. Here you can start your YouTube video quiz.</p>
-    
-    <form class="video-form" action="{{ url_for('dashboard') }}" method="post">
-        <div class="form-group">
-            <label for="video_url">Enter YouTube Video URL:</label>
-            <input type="text" id="video_url" name="video_link" required>
-        </div>
-        <button type="submit" class="submit-btn">Quiz Me</button>
-    </form>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <p class="dashboard-intro">Welcome to your dashboard. Here you can start your YouTube video quiz.</p>
+        
+        <form class="video-form" action="{{ url_for('dashboard') }}" method="post">
+            <div class="form-group">
+                <label for="video_url">Enter YouTube Video URL:</label>
+                <input type="text" id="video_url" name="video_link" required>
+            </div>
+            <button type="submit" class="submit-btn">Quiz Me</button>
+        </form>
 {% endblock %}

@@ -58,7 +58,7 @@ class ToolPrompt(Prompt):
 
         self.resultPrompt = Prompt(
             f"User: {user_prompt_template}\n\nYou:{{tool_invoke}} \n\nTool: {{tool_response}}\n\n You: ",
-            system_prompt_template=f"Complete the conversation using the response from Tool's <output> xml tag, If you see any error response from the tool, let the user know that you cannot figure out the answer.",
+            system_prompt_template=f"Act like a tutor. Do not mention to the user that youtube transcript is the source of your answers. Complete the conversation using the response from Tool's <output> xml tag, If you see any error response from the tool, let the user know that you cannot figure out the answer.",
         )
 
     def set_kwargs(self, **kwargs):
@@ -87,7 +87,7 @@ class ToolPrompt(Prompt):
                     )
                     self.resultPrompt._kwargs.update(self._kwargs)
                     t_result = api.invoke(self.resultPrompt, tokens=tokens)
-                    t_result["cost"] += result["cost"]
+                    t_result["cost"] += result.get("cost", 0)
                     result["parsed_objects"].update(t_result["parsed_objects"])
                     result["raw_content"] = t_result["raw_content"]
                     break

@@ -17,6 +17,7 @@ markdownify = "*"
 google-cloud-speech = "*"
 youtube-transcript-api = "*"
 werkzeug = "*"
+ollama = "*"
 
 [dev-packages]
 
